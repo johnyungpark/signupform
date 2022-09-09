@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="script.js" defer></script>
+        <title>Sign-up Form</title>
+    </head>
+    <body>
+        <div class="bgpic">
+            <div class="cname">⚕️MedServe</div>
+            <div class="cred">Photo credit to <a href="https://unsplash.com/">Unsplash</a></div>
+            <div class="byme">Project by johnyungpark <a href="https://github.com/johnyungpark"><img src="../etch/github.jpeg" alt="github-icon"></a></div>
+        </div>
+        <div class="container">
+        <form action='' method='get' class='medform'>
+            <div class="intro">This is not a real online service! Ever needed some advice or suggestion from your physician but you don't want to wait a week to schedule an appointment? Sign up now to learn more about MedServe's great service! <br><br> Who prefers quicker medical service? We sure do!</div>
+            <div class="middle">
+                <div class="forms">
+                    <div class="lets">Better care now!</div>
+                        <div class='forms2'>
+                            <label for='firstname'>FIRST NAME</label><br>
+                            <input id='firstname' name='firstname' type='text' minlength="2" required />
+                        </div>
+                        <div class='forms2'>
+                            <label for='lastname'>LAST NAME</label><br>
+                            <input id='lastname' name='lastname' type='text' minlength="2" required />
+                        </div>
+                        <div class='forms2'>
+                            <label for='email'>EMAIL</label><br>
+                            <input id='email' name='email' type='email' required />
+                        </div>
+                        <div class='forms2'>
+                            <label for='phone'>PHONE NUMBER</label><br>
+                            <input id='phone' name='phone' type='tel' placeholder='10 digit number' pattern="(\d{10})" required />
+                        </div>
+                        <div class='forms2'>
+                            <label for='password'>PASSWORD</label><br>
+                            <input id='password' name='password' type='password' required />
+                            <div class="invalpw"></div>
+                        </div>
+                        <div class='forms2'>
+                            <label for='password2'>CONFIRM PASSWORD</label><br>
+                            <input id='password2' name='password2' type='password' required />
+                        </div>
+                </div>
+            </div>
+            <div class="footer">
+                <button class="submit">Create Account</button>
+                <p class"login">Already have an account? <a href=''>Log in</a></p>
+            </div>
+        </form>
+        </div>
+
+    </body>
+</html>

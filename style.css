@@ -1,0 +1,132 @@
+html {
+    background-color: rgb(4, 46, 4);
+}
+
+body {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+
+.bgpic {
+    background-image: url('doctor.avif');
+    background-size: 500px 1000px;
+    background-repeat: no-repeat;
+    height: 1000px;
+    width: 500px;
+}
+
+.container {
+    height: 1000px;
+    width: 800px;
+    background-color:beige;
+}
+
+.cname {
+    font-size:90px;
+    text-align: center;
+    color:white;
+    background-color: black;
+    opacity: 60%;
+    margin-top: 250px;
+}
+
+.cred {
+    text-align:center;
+    margin-top:575px;
+}
+
+.byme {
+    text-align: center;
+}
+
+.intro {
+    height: 220px;
+    font-size: 25px;
+    font-family:sans-serif;
+    font-weight:bolder;
+    margin-top:100px;
+    margin-left: 50px;
+    margin-right: 80px;
+}
+
+.middle {
+    background-color:white;
+    box-shadow: 0 5px 2px -2px gray;
+}
+.forms {
+    height: 400px;
+    margin-left: 50px;
+    font-family:sans-serif;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: white;
+}
+
+.lets {
+    font-size:30px;
+    font-weight:bolder;
+    width: 500px;
+    padding-bottom: 0px;
+    display: flex;
+    align-items: center;
+}
+
+.forms2 {
+    width:350px;
+    height: 30px;
+}
+
+input {
+    font-size: 20px;
+    width: 275px;
+    height: 25px;
+    border-radius: 5px;
+    border-color: lightgrey;   
+}
+
+input:focus {
+    outline: none;
+    border:1px solid blue;
+    box-shadow: 0 0 10px #719ECE;
+}
+
+input:focus:invalid {
+    outline: none;
+    border:1px solid red;
+    box-shadow: 0 0 10px #c95161;
+}
+
+label {
+    font-size:15px;
+}
+
+.footer {
+    margin-left: 50px;
+    margin-top: 25px;
+    font-family: sans-serif
+}
+
+.submit {
+    border-radius: 10px;
+    border:none;
+    background-color: rgb(20, 85, 110);
+    color: white;
+    font-weight: bolder;
+    padding: 12px;
+    width: 175px;
+    cursor: pointer;
+}
+
+.invalpw {
+    color:red;
+    font-size: 0.8rem;
+}
+
+img {
+    height: 15px;
+    width: 15px;
+}
